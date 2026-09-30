@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    border: 2px solid #cccccc;
+    border-radius: 5px; 
+}
+
+textarea {
+    resize: vertical;
+    height: 60px;
+}
+
+.grupo-radio label, .grupo-box label {
+    font-weight: normal;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.foco {
+    border-color: black !important; 
+    background-color: aliceblue;
+}
+
+.erro {
+    border-color: #d64545 !important;
+}
